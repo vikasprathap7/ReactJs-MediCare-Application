@@ -1,0 +1,85 @@
+.login_wrapper {
+  background: white;
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+  opacity: 0.9;
+  filter: alpha (opacity=90)
+   }
+  .login_Background {
+  background-image: url("5.jpg");
+   max-width: 100%;
+  max-height: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 100px;
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/  
+   
+  }
+  .logged_Background {
+  background-image: url("13.jpg");
+   max-width: 100%;
+  max-height: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 100px;
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/   
+  }
+  .login_wrapper h4 {
+    margin-bottom: 35px; }
+  .login_wrapper .glyphicon:before {
+    position: absolute; }
+  .login_wrapper .glyphicon-fire:before {
+    color: #f0ad4e;
+    font-size: 32px;
+    bottom: -8px;
+    right: 5px; }
+  .login_wrapper .glyphicon-cog:before {
+    font-size: 26px;
+    color: #4990cc;
+    bottom: -8px;
+    left: -14px; }
+  .login_wrapper .glyphicon-ok:before {
+    font-size: 32px;
+    color: #5cb85c;
+    bottom: -8px;
+    right: 10px; }
+
+.login_glyph {
+  position: relative; }
+
+.login_control {
+  font: 10px Verdana, sans-serif;
+  width: 186px;
+  height: 34px;
+  padding-left: 5px;
+  padding-bottom: 0;
+  margin: 0 auto 18px; }
+
+.login_button {
+  width: 90px;
+  color: #4990cc;
+  border-radius: 30px;
+  outline: 0 !important; }
+
+.login_button_disabled:hover,
+.login_button_disabled:focus,
+.login_button_disabled:active {
+  background: transparent !important;
+  border-color: #ccc !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important; }
+
+.has_error,
+.has_error:focus {
+  border: 2px solid rgba(213, 63, 58, 0.5); }
+
+.has_error:focus {
+  border: 1px solid rgba(213, 63, 58, 0.5);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(213, 63, 58, 0.5) !important;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(213, 63, 58, 0.5) !important; }
